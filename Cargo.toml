@@ -1,0 +1,11 @@
+[package]
+name = "usb-connector"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.81"
+nix = { version = "0.28.0", features = ["poll"] }
+udev = "0.8.0"
